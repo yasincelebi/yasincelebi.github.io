@@ -1,4 +1,4 @@
-const about = document.querySelector("#about");
+const about = document.getElementById("about");
 const contact = document.querySelector("#contact");
 const aboutContent = document.querySelector("#about-content");
 const contactContent = document.querySelector("#contact-content");

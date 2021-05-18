@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Yasin Celebi</title>
     <script src="./assets/js/winbox.bundle.js"></script>
-    <script src="./assets/js/main.js"></script>
+
+    <script src="./assets/js/mailto.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -49,10 +50,17 @@
       <div id="contact-content">
         <h2>contact-me:$<span class="cursor">|</span></h2>
         <p>You can also contact me by e-mail.</p>
+        <p>Click email and choose the service you use</p>
         <p>
-          <a href="mailto:celebiksyasin@gmail.com">celebiksyasin@gmail.com</a>
+          <a
+            class="mailtoui"
+            href="mailto:celebiksyasin@gmail.com?subject=Hi%20there!&body=%0D%0A%0D%0A %0D%0Avia: yasincelebi.github.io"
+            >celebiksyasin@gmail.com</a
+          >
+          <br />
         </p>
       </div>
     </div>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
